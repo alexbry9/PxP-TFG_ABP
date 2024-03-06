@@ -30,8 +30,23 @@ if (isset($_POST['descargar'])) {
   <link rel="stylesheet" href="../css/tfg.css">
 </head>
 <body>
-<h1 align="center">PXP</h1>
-<h2 align="center">Automatizacion</h2>
+<center>
+  <nav class="logo">
+            <ul>
+                <li><a href="index.php" class="enlacesSin"><img src="../css/logoF.png" width="50%" height="50%"></a></li>
+            </ul>
+        </nav>
+  <nav>
+    <ul class="menu">
+      <li><a href="../principal.php">Personalización de scripts</a></li>
+      <li><a href="../scripts.php">Descargar scripts</a></li>
+      <li><a href="../explicaScripts.php">Explicacion de scripts</a></li>
+      <!--<li><a href=".php">Sobre mi</a></li>
+      <br><br><br><br><br>
+      <li><a href="inicio.php">Cambiar de usuario</a></li> -->
+    </ul>
+  </nav>
+  </center>
 <?php
 
  if (isset($_POST['volver'])) {

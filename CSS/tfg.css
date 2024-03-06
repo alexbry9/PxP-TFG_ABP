@@ -12,9 +12,15 @@ header {
   color: #fff;
   padding: 20px;
 }
+
+p{
+  padding: 10%;
+}
+
 header h1 {
   font-size: 36px;
   margin: 0;
+  color: blue;
 }
 /* Estilos del menú */
 nav {
@@ -37,9 +43,11 @@ nav a {
   text-decoration: none;
   padding: 10px;
 }
-nav a:hover {
+.menu:hover {
   background-color: #006699;
 }
+
+
 /* Estilos de la sección principal */
 main {
   max-width: 800px;
@@ -83,4 +91,14 @@ input[type=submit] {
 
 input[type=submit]:hover {
   background-color: #333;
+}
+
+.container {
+  max-width: 800px;
+  margin: 10%;
+}
+
+.container h1{
+
+  color: darkblue !important; 
 }
