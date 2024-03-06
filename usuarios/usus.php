@@ -40,7 +40,7 @@ if (isset($_POST['descargar'])) {
 <head>
   <meta charset="utf-8">
   <title>TFG</title>
-  <link rel="stylesheet" href="../css/tfg.css">
+  <link rel="stylesheet" href="../CSS/tfg.css">
 </head>
 <body>
 <center>
@@ -65,7 +65,7 @@ if (isset($_POST['descargar'])) {
    header("location:../index.php");
  }
 if (isset($_SESSION['comprobar']) && $_SESSION['comprobar']) {
-      echo "<center><p>Tienes la sesion iniciada</p></center>";
+      echo "<center><p></p></center>";
     } else {
       header ("location:../inicio.php");
     }
@@ -88,8 +88,7 @@ echo "Los nombres de los departamentos serán las raices de los nombres de los u
 <label for="NOU">Primera parte del del dominio:</label><input type="text" name="dom1" id="dom1"> <br><br>
 <label for="NOU">Segunda parte del del dominio:</label><input type="text" name="dom2" id="dom2"> <br><br>
 <input type="submit" value="Descargar" name="descargar"><br><br>
-<input type="submit" value="Volver a página principal" name="volver">
-<input type="submit" value="Volver a selección de scripts" name="volverS">
+
 <br><br><br><br>
 <?php
 echo "Nota: si no existe un grupo creado con el mismo nombre que el de los usuarios, este se creará automáticamente. Si se desea cambiar esto, se recomienda descargar el script y editarlo a su gusto. Se recomienda revisar la sección de enseñanza de scripts si no se tiene suficiente experiencia en su manejo haciendo" ?> <a href="../principal.php">clic aquí</a></li>
