@@ -1,0 +1,346 @@
+@import url('https://fonts.googleapis.com/css2?family=Linefont:wght@300&family=Poppins&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+h1{
+    margin-left: 47%;
+    margin-top: 7px;
+    font: bold 250% sans-serif;
+}
+body{
+    background: #DEDEDE;
+}
+/*nav HACER*/
+nav {
+    float:center;
+    margin-left: 38%;
+}
+nav ul{
+    list-style: none;
+    overflow: hidden;
+}
+nav ul li {
+    float: left;
+    font-family: 'Open Sans', sans-serif; 
+    font-size: 18px;
+    font-weight:bold;
+}
+nav ul li a {
+    background-color:transparent;
+    display: block;
+    padding: 10px;
+    color:black;
+    text-decoration:blink;   
+}
+
+a:hover{
+    color: #FF0000;
+    cursor: pointer;
+}
+
+.linea {
+  width: 100%;
+  height: 75px;
+  background: #EDF500; 
+  animation-name:slidein;
+  animation-duration:4s;
+  animation-fill-mode:forwards;
+  left: 0px;
+  top:0px;
+  z-index: -1;
+  position: absolute;
+
+}
+
+.foto{
+    float:center;
+    list-style: none;
+    overflow: hidden;
+    display: block;
+    margin-left: 37%;
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+
+.foto:hover {
+    transform: scale(1.01);
+    cursor: pointer;
+}
+
+#columnas{
+    column-count:2;
+    column-gap:10px;
+    margin-top: 4%;
+    margin-left: 25%;
+    margin-bottom: 5%;
+    font-size: 60px;
+    font: bold 250% sans-serif;
+}
+
+#imgns{
+    /* column-count:2;
+    column-gap:10px; */
+    margin-left: 7%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.slider{
+    width: 100%;
+    /*height: 80%;*/
+    margin:auto;
+    overflow: hidden;
+}
+
+.slider ul{
+    display:flex;
+   padding: 0%; 
+   width: 400%;
+   animation: cambio 10s infinite;
+   animation-direction: alternate;
+
+}
+.slider img{
+    width: 100%;
+}
+
+@keyframes cambio{
+    0% {margin-left: 0}
+    20% {margin-left: 0%;}
+
+    25% {margin-left: -100%}
+    45% {margin-left: -100%;}
+    
+    50% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+
+    75% {margin-left: -300%;}
+    100% {margin-left: -300%;}
+}
+
+.agregadaInicio{
+    background-color: black;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    /*width: 80%;
+    height: 80%;
+    allign: center; 
+    padding: 10%;*/
+    margin: 7%;
+}
+
+.logo  {
+    float:left;
+    margin-left: 0%;
+    list-style: none;
+    overflow: hidden;
+    float: left;
+    display: block;
+    padding: 0px;
+    margin-top:-5%;
+    margin:0px;
+    width: 160px;
+    height: 55px;
+}
+
+.color{
+      /* background-color: #FF7740; */
+      font-size: 100px;
+   }
+
+.letrasMenu {
+    padding: 13px;
+}
+
+.tituloS{
+    margin-left: 20%;
+}
+
+/* USADO EN INDEX */
+
+.caja {
+    border: 1px solid black;
+    margin: 5px;
+    width: 255px;
+    height: 340px;
+
+}
+
+.flex-container{
+    background-color: #ccc;
+    padding: 20px;
+    display:  flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+/* FLEX CONTAINER DE LA SECCION HALLOWEEN */
+
+.cajaH {
+    border: 1px solid black;
+    margin: 60px;
+    width: 255px;
+    height: 340px;
+    border: 4px solid orange;
+    border-radius:8px;
+}
+
+
+.flex-containerH{
+    background-color: #000000;
+    padding: 20px;
+    display:  flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: 8px solid orange;
+    border-radius: 8px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 60px;
+    color: orange;
+    text-align: center;
+    align-items: flex-end;
+    margin: 30px;
+}
+
+/* FLEX CONTAINER DE SECCION NAVIDEÑA */
+
+.flex-containerN{
+    background-color: darkgreen;
+    padding: 20px;
+    display:  flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: 8px solid red;
+    border-radius: 10px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 60px;
+    color: red;
+    text-align: center;
+    align-items: flex-end;
+}
+
+.cajaN {
+    border: 1px solid black;
+    margin: 60px;
+    width: 255px;
+    height: 340px;
+    border: 4px solid red;
+    border-radius: 20px;
+}
+
+
+
+/* CAJA Y FLEX PARA EL FINAL */
+
+.cajaF {
+    margin: 60px;
+    width: 100px;
+    height: 100px;
+}
+
+.cajaF-texto {
+ float: left;
+ justify-content: safe left;
+ margin-right: 700px;
+ font-size: 30px;
+ font-family: "Verdana";
+}
+
+/* FLEX CONTAINER DEL FINAL */
+
+.titulosDentroDeFlex {
+    float: center;
+}
+
+/* FLEX CONTAINER DEL FINAL */
+
+.flex-container-final{
+    background: #EDF500;
+    flex-wrap: wrap;
+    padding: 20px;
+    display:  flex;
+    justify-content: safe right;
+}
+
+/* CLASE PARA SECCION HALLOWEEN */
+
+.hall{
+    background-color: #000000;
+    border: 8px solid orange;
+    border-radius: 8px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 50px;
+    color: orange;
+    text-align: center;
+    align-items: flex-end;
+    margin: 20px;
+}
+/*column-rule:4px dotted gray; */
+
+/* TITULOS */
+
+.titulo{
+    font-size: 30px;
+    font-family: "Verdana";
+    margin: 16px;
+    font-weight: bold
+    text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+}
+
+.titulo2{
+    font-size: 20px;
+    font-family: "Verdana";
+    margin: 8px;
+    margin-top: 5%;
+    /*background: linear-gradient(white,yellow) ;*/
+}
+
+/* TEXTO APLICADO EN TRAILERS GENERAL */
+
+.textoVideos{
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+
+}
+
+.pulp{
+    font-size: 27px;
+}
+
+/* VIDEOS */
+
+.video{
+    margin-top: 0%;
+}
+
+/* CAJA VIDEO */
+
+.cajaVideo {
+    margin: 0%;
+    width: 560px;
+    height: 315px;
+}
+
+.flex-containerTrailer{
+    background-color: #ccc;
+    padding: 20px;
+    display:  flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.flex-box-titulos{
+    background-color: #ccc;
+    padding: 20px;
+    display:  flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.cajaTitulo{
+    margin: 5px;
+    width: 400px;
+    height: 750px;
+}
