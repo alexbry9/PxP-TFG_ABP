@@ -5,8 +5,8 @@ session_start()
 <html>
 <head>
   <meta charset="utf-8">
-  <title>TFG</title>
-  <link rel="stylesheet" href="css/tfg.css">
+  <title>PxP Scripts</title>
+  <link rel="stylesheet" href="CSS/tfg.css">
 </head>
 <body>
 <center>
@@ -55,6 +55,8 @@ session_start()
 
 <form action="inicio.php" method="POST">
   <center>
+    <br>
+    <br>
   <label>Usuario: </label><input type="text" name="user"><br>
   <br>
   <label>Contraseña: </label><input type="text" name="pass"><br>

@@ -25,7 +25,7 @@ if (isset($_POST['descargar'])) {
 <head>
   <meta charset="utf-8">
   <title>TFG</title>
-  <link rel="stylesheet" href="../css/tfg.css">
+  <link rel="stylesheet" href="../CSS/tfg.css">
 </head>
 <body>
 <center>
@@ -50,7 +50,7 @@ if (isset($_POST['descargar'])) {
    header("location:../index.php");
  }
 if (isset($_SESSION['comprobar']) && $_SESSION['comprobar']) {
-      echo "<center><p>Tienes la sesion iniciada</p></center>";
+      echo "<center><p></p></center>";
     } else {
       header ("location:../inicio.php");
     }
@@ -67,8 +67,6 @@ if (isset($_SESSION['comprobar']) && $_SESSION['comprobar']) {
 <label for="Ndom1">Primera parte del dominio:</label><input type="text" name="dom1" id="dom1"> <br><br>
 <label for="Ndom2">Segunda parte del dominio:</label><input type="text" name="dom2" id="dom2"> <br><br>
 <input type="submit" value="Descargar" name="descargar"><br><br>
-<input type="submit" value="Volver a página principal" name="volver">
-<input type="submit" value="Volver a selección de scripts" name="volverS">
 </center>
 </body>
 </html>

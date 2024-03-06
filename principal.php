@@ -5,8 +5,8 @@ session_start();
 <html>
 <head>
   <meta charset="utf-8">
-  <title>TFG</title>
-  <link rel="stylesheet" href="css/tfg.css">
+  <title>PxP Scripts</title>
+  <link rel="stylesheet" href="CSS/tfg.css">
 </head>
 <body>
 <center>
@@ -79,7 +79,7 @@ if (isset($_SESSION['comprobar']) && $_SESSION['comprobar']) {
 ?>
 <center>
 <form action="principal.php" method="POST">
-<br><br><input type="submit" value="Volver" name="volver">
+<br><br><input type="submit" value="Volver" name="volver" class="boton">
 </center>
 </body>
 </html>

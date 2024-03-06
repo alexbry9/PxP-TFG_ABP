@@ -5,8 +5,8 @@ session_start()
 <html>
 <head>
   <meta charset="utf-8">
-  <title>TFG</title>
-  <link rel="stylesheet" href="css/tfg.css">
+  <title>PxP Scripts</title>
+  <link rel="stylesheet" href="CSS/tfg.css">
 </head>
 <body>
 <center>
@@ -29,7 +29,7 @@ session_start()
 <?php
 
 if (isset($_SESSION['comprobar']) && $_SESSION['comprobar']) {
-      echo "<center><p>Tienes la sesion iniciada</p></center>";
+      echo "<center><p></p></center>";
       /* ?>
       <center><h3>Sube tu script</h3></center>
       <form action="scripts.php" method="POST">
