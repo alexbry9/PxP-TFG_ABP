@@ -34,16 +34,13 @@ session_start();
 
 <p>Cada script que encontrarás en nuestra plataforma viene acompañado de una explicación detallada para que puedas comprender su funcionamiento y aplicarlo de manera efectiva en tus proyectos. Creemos en la importancia de no solo proporcionar herramientas, sino también en capacitar a los usuarios para que comprendan cómo estas pueden optimizar sus tareas diarias.</p>
 
-<p>Navegar por nuestra plataforma es fácil. Explora nuestra extensa biblioteca de scripts, encuentra la solución perfecta para tus necesidades y descubre las explicaciones paso a paso que te guiarán en la implementación de cada script. Ya seas un desarrollador experimentado o estés dando tus primeros pasos en el mundo del código, aquí encontrarás recursos valiosos que impulsarán tu creatividad y productividad.</p>
-
-
-<p>¡Descarga, aprende y transforma tu experiencia de desarrollo con nuestros scripts y sus detalladas explicaciones! Estamos emocionados de ser parte de tu viaje de crecimiento y éxito en el mundo de la programación.</p></div>
+<p>Navegar por nuestra plataforma es fácil. Explora nuestra extensa biblioteca de scripts, encuentra la solución perfecta para tus necesidades y descubre las explicaciones paso a paso que te guiarán en la implementación de cada script. Si estás dando tus primeros pasos en el mundo del código, aquí encontrarás recursos valiosos que impulsarán tu creatividad y productividad.</p></div>
 <center>
 <h2>CREACION DE USUARIOS</h2>
 <li><a href="usuarios/noauto/descarga_US_MG.php">Creación de un usuario</a><br></li>
 <li><a href="usuarios/noauto/descarga_USS_MG.php">Creación de múltiples usuarios</a></li>
-<li><a href="usuarios/usus.php">Creación de usuarios con 2 departamentos</a></li>
-<li><a href="usuarios/usus3.php">Creación de usuarios con 3 departamentos</a></li>
+<li><a href="usuarios/noauto/descarga_USS_MG.php">Creación de usuarios con 2 departamentos</a></li>
+<li><a href="usuarios/noauto/descarga_USS_MG.php">Creación de usuarios con 3 departamentos</a></li>
 <h2>CREACION DE GRUPOS</h2>
 <li><a href="usuarios/noauto/descarga_G_MG.php">Creación de grupos</a></li>
 <h2>CREACION DE UNIDADES ORGANIZATIVAS</h2>

@@ -50,8 +50,10 @@ if (isset($_SESSION['comprobar']) && $_SESSION['comprobar']) {
 ?>
 <center>
 <h2>Script para crear usuario solicitando datos</h2>
-<a href="usuarios/noauto/descarga.php">Script para la creacion de un usuario</a><br>
+<a href="usuarios/noauto/descarga.php">Clic aqui para descargar</a><br>
 <br>
+<h2>Script para crear una OU solicitando datos</h2>
+<a href="usuarios/noauto/descarga_OUnoauto.php">Clic aqui para descargar</a><br>
 <form action="scripts.php" method="POST">
 <input type="submit" value="Volver" name="volver">
 </center>
