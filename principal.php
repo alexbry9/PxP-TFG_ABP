@@ -28,15 +28,15 @@ session_start();
   </center>
 <center>
 <h2>CREACION DE USUARIOS</h2>
-<li><a href="usuarios/usus2.php">Creacion de usuarios simple</a></li>
-<li><a href="usuarios/usus4.php">Creacion de múltiples usuarios</a></li>
-<li><a href="usuarios/usus.php">Creacion de usuarios con 2 departamentos</a></li>
-<li><a href="usuarios/usus3.php">Creacion de usuarios con 3 departamentos</a></li>
+<li><a href="usuarios/usus2.php">Creación de usuarios simple</a></li>
+<li><a href="usuarios/usus4.php">Creación de múltiples usuarios</a></li>
+<li><a href="usuarios/usus.php">Creación de usuarios con 2 departamentos</a></li>
+<li><a href="usuarios/usus3.php">Creación de usuarios con 3 departamentos</a></li>
 <h2>CREACION DE GRUPOS</h2>
-<li><a href="grupos/grupos.php">Creacion de grupos</a></li>
+<li><a href="grupos/grupos.php">Creación de grupos</a></li>
 <h2>CREACION DE UNIDADES ORGANIZATIVAS</h2>
-<li><a href="OUs/OUs.php">Creacion de unidades organizativas</a></li>
-<li><a href="OUs/OUs2.php">Creacion de unidades organizativas dentro de otras unidades organizativas</a></li>
+<li><a href="OUs/OUs.php">Creación de unidades organizativas</a></li>
+<li><a href="OUs/OUs2.php">Creación de unidades organizativas dentro de otras unidades organizativas</a></li>
 <h2>OBTENCION DE PERMISOS</h2>
 <li><a href="permisos/permisos.php">Permisos sobre usuarios</a></li>
 <li><a href="permisos/permisos.php">Permisos sobre grupos</a></li>

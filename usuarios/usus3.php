@@ -80,10 +80,13 @@ if (isset($_SESSION['comprobar']) && $_SESSION['comprobar']) {
   <center>
 <label for="nombre">Nombre del primer departamento:</label><input type="text" name="nombre" id="nombre"> <br><br>
 <label for="nombre">Nombre del segundo departamento:</label><input type="text" name="nombre2" id="nombre2"> <br><br>
-<label for="nombre">Nombre del tercer departamento:</label><input type="text" name="nombre3" id="nombre3"> <br><br>
+<label for="nombre">Nombre del tercer departamento:</label><input type="text" name="nombre3" id="nombre3"> <br>
+<br>
 <?php
 echo "Los nombres de los departamentos serán las raices de los nombres de los usuarios y de las unidades organizativas"
 ?>
+<br>
+<br>
 <label for="numero">Numero de usuarios:</label><input type="text" name="numero" id="numero"> <br><br>
 <label for="NOU">Nombre de la OU:</label><input type="text" name="NOU" id="NOU"> <br><br>
 <label for="NOU">Primera parte del del dominio:</label><input type="text" name="dom1" id="dom1"> <br><br>

@@ -74,7 +74,7 @@ if (isset($_SESSION['comprobar']) && $_SESSION['comprobar']) {
  }
 
 ?>
-<form action="usus.php" method="POST">
+<form action="usus4.php" method="POST">
   <center>
 <label for="nombre">Nombre del primer departamento:</label><input type="text" name="nombre" id="nombre"> <br><br>
 <?php

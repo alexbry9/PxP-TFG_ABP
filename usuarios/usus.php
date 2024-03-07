@@ -85,13 +85,13 @@ echo "Los nombres de los departamentos serán las raices de los nombres de los u
 <br><br>
 <label for="numero">Numero de usuarios:</label><input type="text" name="numero" id="numero"> <br><br>
 <label for="NOU">Nombre de la OU:</label><input type="text" name="NOU" id="NOU"> <br><br>
-<label for="NOU">Primera parte del del dominio:</label><input type="text" name="dom1" id="dom1"> <br><br>
-<label for="NOU">Segunda parte del del dominio:</label><input type="text" name="dom2" id="dom2"> <br><br>
+<label for="dom1">Primera parte del del dominio:</label><input type="text" name="dom1" id="dom1"> <br><br>
+<label for="dom2">Segunda parte del del dominio:</label><input type="text" name="dom2" id="dom2"> <br><br>
 <input type="submit" value="Descargar" name="descargar"><br><br>
-
+</form>
 <br><br><br><br>
 <?php
-echo "Nota: si no existe un grupo creado con el mismo nombre que el de los usuarios, este se creará automáticamente. Si se desea cambiar esto, se recomienda descargar el script y editarlo a su gusto. Se recomienda revisar la sección de enseñanza de scripts si no se tiene suficiente experiencia en su manejo haciendo" ?> <a href="../principal.php">clic aquí</a></li>
+echo "Nota: si no existe un grupo creado con el mismo nombre que el de los usuarios, este se creará automáticamente. Si se desea cambiar esto, se recomienda descargar el script y editarlo a su gusto. Se recomienda revisar la sección de enseñanza de scripts si no se tiene suficiente experiencia en su manejo haciendo" ?> <a href="../explicaScripts.php">clic aquí</a></li>
 </center>
 </body>
 </html>
